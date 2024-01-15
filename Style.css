@@ -448,6 +448,39 @@ section .title::after{
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
+
+.contact .contact-content .socialicones{
+    width: calc(50% - 30px);
+    font-size: 2em;
+    opacity: 0.9;
+}
+
+.socialicones a
+{
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialicones a i
+{
+    font-size: 1.5em;
+    color: #812bd6;
+    opacity: 0.9;
+}
+
+.socialicones a:hover
+{
+    transition: 0.3s;
+}
+
+.socialicones a:hover i
+{
+    color: #6423b8;
+    transition: 0.3s;
+}
+
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
